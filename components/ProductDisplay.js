@@ -43,6 +43,7 @@ app.component('product-display', {
           v-on:click="removeFromCart">
           Remove From Cart
         </button>
+
       </div>
     </div>
     <review-list v-if="reviews.length" :reviews="reviews"></review-list>
